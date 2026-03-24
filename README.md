@@ -24,24 +24,27 @@ A lightweight facial recognition web app built with **Vanilla JavaScript** and *
 ---
 
 ## 📁 Project Structure
+
+```
 project-root/
 │
-├── face-api.min.js # Face API library
-├── facial_recognition.js # Main app logic
-├── index.html # Entry point
-├── style.css # Styling
-├── package.json # Project metadata
+├── face-api.min.js              # Face API library
+├── facial_recognition.js        # Main app logic
+├── index.html                   # Entry point
+├── style.css                    # Styling
+├── package.json                 # Project metadata
 │
-└── models/ # Pre-trained ML models
-├── face_expression_model-shard1
-├── face_expression_model-weights_manifest.json
-├── face_landmark_68_model-shard1
-├── face_landmark_68_model-weights_manifest.json
-├── face_recognition_model-shard1
-├── face_recognition_model-shard2
-├── face_recognition_model-weights_manifest.json
-├── tiny_face_detector_model-shard1
-└── tiny_face_detector_model-weights_manifest.json
+└── models/                      # Pre-trained ML models
+    ├── face_expression_model-shard1
+    ├── face_expression_model-weights_manifest.json
+    ├── face_landmark_68_model-shard1
+    ├── face_landmark_68_model-weights_manifest.json
+    ├── face_recognition_model-shard1
+    ├── face_recognition_model-shard2
+    ├── face_recognition_model-weights_manifest.json
+    ├── tiny_face_detector_model-shard1
+    └── tiny_face_detector_model-weights_manifest.json
+```
 
 
 ---
